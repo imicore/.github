@@ -6,10 +6,10 @@ IMI is a music-focused project building interactive products for music learning,
 
 Founded by Filipp Pavlov in Spain.
 
-## Current direction
+Current direction
 
 - rhythm-based music games
-- music theory learning experiences
+- ear training and music theory games
 - profile, achievements, and progression systems
 - broader music-centered platform development
 
