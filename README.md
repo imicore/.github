@@ -1,2 +1,5 @@
 # .github
-Official organization profile for IMI
+
+Organization profile repository for IMI.
+
+Public organization profile content is maintained in `profile/README.md`.
