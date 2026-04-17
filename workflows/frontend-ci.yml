@@ -1,0 +1,35 @@
+name: frontend-ci
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+concurrency:
+  group: frontend-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  frontend-ci:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Use Node.js 20.19.0
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.19.0
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Verify frontend
+        env:
+          CI: true
+          VITE_IMI_GA_ID: G-XXXXXXXXXX
+          IMI_DEV_API_PROXY_TARGET: https://imi-backend-production.up.railway.app
+        run: npm run predeploy
