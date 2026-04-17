@@ -1,11 +1,24 @@
 # IMI
 
-IMI (Interactive Music Infrastructure) is a music-focused project developing interactive products for music learning, musical skill development, and musician-audience engagement.
+Interactive Music Infrastructure
+
+IMI is a music-focused project building interactive products for music learning, musical skill development, and musician-audience engagement.
 
 Founded by Filipp Pavlov in Spain.
 
-Current work includes rhythm and music theory games, profile and achievement systems, and the broader development of a music-centered platform.
+## Current direction
 
-This GitHub organization is the official development space for IMI.
+- rhythm-based music games
+- music theory learning experiences
+- profile, achievements, and progression systems
+- broader music-centered platform development
 
-Contact: filippp689@gmail.com
+## Public links
+
+- Organization: https://github.com/imicore
+- Public site: https://imicore.github.io/imi-public/
+- Public materials: https://github.com/imicore/imi-public
+
+## Contact
+
+- filippp689@gmail.com
