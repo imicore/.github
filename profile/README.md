@@ -1,24 +1,33 @@
 # IMI
 
-Interactive Music Infrastructure
+**Interactive Music Infrastructure**
 
-IMI is a music-focused project building interactive products for music learning, musical skill development, and musician-audience engagement.
+IMI is a music-focused platform for interactive learning, rhythm training, ear training, music logic, and verifiable musical progress.
 
-Founded by Filipp Pavlov in Spain.
+The project starts with small playable music games and grows toward a broader system where learners, listeners, and musicians can interact through skill, progress, and musical knowledge.
 
-Current direction
+## Current direction
 
-- rhythm-based music games
-- ear training and music theory games
-- profile, achievements, and progression systems
-- broader music-centered platform development
+- Rhythm-based music games
+- Ear training and music theory games
+- Player profiles, achievements, rankings, and progress records
+- Tools for making musical skill easier to understand, practice, and verify
+- A broader musician-audience platform built around musical development
+
+## Current products
+
+- **BubbleTap** — rhythm and timing game
+- **UniTap** — ear training and interval/chord recognition
+- **UniRow** — music logic game based on pitch classes and enharmonic thinking
+- **IMI Profile** — early player profile, progress, achievements, and rankings
 
 ## Public links
 
-- Organization: https://github.com/imicore
-- Public site: https://imicore.github.io/imi-public/
-- Public materials: https://github.com/imicore/imi-public
+- Website: https://imiorigin.com
+- Support: hello@imiorigin.com
 
-## Contact
+## Status
 
-- filippp689@gmail.com
+IMI is currently in an early testing and staged launch period.
+
+Some features, rankings, coins, achievements, and profile systems may change during testing.
